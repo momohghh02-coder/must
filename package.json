@@ -1,0 +1,12 @@
+{
+  "name": "mindora",
+  "private": true,
+  "type": "module",
+  "description": "MINDORA - phase 2: data model + legacy migration (no UI yet)",
+  "scripts": {
+    "extract": "node scripts/extract-catalog.mjs",
+    "test": "node --test tests/migration.test.ts",
+    "migrate:dry-run": "node scripts/migrate-dry-run.ts"
+  },
+  "engines": { "node": ">=22.18" }
+}
